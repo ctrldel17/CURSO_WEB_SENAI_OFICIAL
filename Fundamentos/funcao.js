@@ -12,3 +12,8 @@ imprime('aula')
 
 var imprimir =  a => console.log( a)
 imprimir(objeto={ marca:'samsung'})
+
+//operador ternario: 
+const resultado = nota => nota>=7 ? 'Aprovado' : 'Reprovado'
+
+console.log(resultado(6))
